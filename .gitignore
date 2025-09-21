@@ -1,0 +1,39 @@
+# --- Python base ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- Editor/OS ---
+*.DS_Store
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# --- Logs & cache ---
+*.log
+*.tmp
+*.bak
+*.cache/
+
+# --- Project specific ---
+upscaled/
+ricamo/
+artifacts/*/*.png
+artifacts/*/*.jpg
+
+# Se vuoi salvare solo i PNG 'title' in artifacts, puoi fare così:
+# artifacts/*/!(cavallo-spettrale_title_*.png)
